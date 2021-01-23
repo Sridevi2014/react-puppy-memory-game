@@ -3,7 +3,7 @@
   }
   
   .Game-header {
-    background-color: #222;
+    background-color:#3046C5;
     height: 50px;
     padding: 20px;
     color: white;
@@ -47,4 +47,9 @@
       -moz-user-drag: none;
       -o-user-drag: none;
       user-drag: none;    
+  }
+
+  .site-footer {
+    color: #F3F2F4;
+    text-align: center;
   }
