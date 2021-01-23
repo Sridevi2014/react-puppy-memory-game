@@ -1,43 +1,52 @@
-# Getting Started with Create React App
+# React-Puppy-Memory-Game
+This is a memory game app built with React.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Preview
+![react-puppy-memory-game](https://user-images.githubusercontent.com/28641604/105571165-64182d80-5d13-11eb-9c27-5da470e9b544.png)
 
-## Available Scripts
 
-In the project directory, you can run:
 
-### `yarn start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Overview
+ The goal of this project is to create a Memory Game application using HTML, CSS, Bootstrap, Javascript and React.
+used Bounce react animation.
+ 
+## Features
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- As of now there is one difficulty setting: 8 cards.
+- Counting amount of clicks until you win.
+- Can reset the game and play again after won.
+- Once the memory game is completed, the final turns is presented with a Play Again button
 
-### `yarn test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+# Getting started
 
-### `yarn build`
+### Requirements
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Node.js
+- yarn
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Package installation
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```bash
+yarn install
+```
 
-### `yarn eject`
+# Quick Start
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+cd react-puppy-memory-game
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Start the React App
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+Excute the following command:
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+```bash
+yarn start
+```
+### Get Started Immediately
 
-## Learn More
+You don’t need to install or configure tools like Webpack or Babel. They are preconfigured and hidden so that you can focus on the code.
 
+Just create a project, and you’re good to go.
+
+The application will start automatically in your browser on http://localhost:3000
