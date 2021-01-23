@@ -29,6 +29,7 @@
     margin-bottom: 10px;
     margin-left: 10px;
     width: 100px;
+    padding: 10px;
   }
   
   .Matched {
@@ -42,14 +43,35 @@
   }
   
   img {
-      -webkit-user-drag: none;
-      -khtml-user-drag: none;
-      -moz-user-drag: none;
-      -o-user-drag: none;
-      user-drag: none;    
-  }
+    -webkit-user-drag: none;
+    -khtml-user-drag: none;
+    -moz-user-drag: none;
+    -o-user-drag: none;
+    user-drag: none;    
+}
 
   .site-footer {
-    color: #F3F2F4;
+   
     text-align: center;
+  }
+
+
+  .example-enter {
+    opacity: 0;
+    transform: translateX(-100%);
+  }
+  
+  .example-enter-active {
+    opacity: 1;
+    transform: translateX(0%);
+    transition: 300ms ease-in;
+  }
+  
+  .example-exit {
+    opacity: 1;
+  }
+  
+  .example-exit-active {
+    opacity: 0;
+    transition: 300ms ease-out;
   }

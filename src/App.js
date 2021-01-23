@@ -1,12 +1,9 @@
-
-import Game from './Game';
-import Footer from './components/footer';
+import Game from "./Game";
 
 function App() {
   return (
-    <div className="App"> 
-    <Game />
-    <Footer />
+    <div className="App">
+      <Game />
     </div>
   );
 }
